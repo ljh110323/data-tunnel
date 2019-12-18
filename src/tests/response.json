@@ -1,0 +1,19 @@
+{
+  "jsonrpc": "2.0",
+  "id": "1",
+  "result": {
+    "code": "String 返回码，成功 1，失败 2，无效会话 3",
+    "msg": "String 返回描述，特别地失败时，错误的详细描述",
+    "data": [
+      {
+      	"fieldValues": [
+      	  {
+      	  	"field": "String 字段名称 这里我们申报的是“actionResponse”",
+      	  	"value": "String 字段值，如果该字段是字典类型，字段值为字典描述",
+      	  	"isCode": "Integer 标记是否为字典，1 是，0 否。若是字典，则 codeValue 不得"
+      	  }
+      	]
+      }
+    ]
+  }
+}

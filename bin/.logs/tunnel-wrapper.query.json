@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "id": "0x5crxu",
+  "method": "query",
+  "params": {
+    "data": {
+      "version": "20190221",
+      "sessionId": "e68f26bb70ab41b8a9fa2a37b34ab1bc",
+      "userInfo": {
+        "userId": "123123123",
+        "userName": "aaa",
+        "userDeptNo": "440000000000",
+        "sn": "{{sn}}"
+      },
+      "dataObjId": "cityfdsaf",
+      "fields": "cityAction",
+      "cityAction": {
+        "username": "test-api",
+        "password": "e11-xdks"
+      }
+    }
+  }
+}

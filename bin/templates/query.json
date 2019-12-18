@@ -1,0 +1,20 @@
+{
+  "jsonrpc": "2.0",
+  "id": "0x5crxu",
+  "method": "{{jsonrpc-method}}",
+  "params": {
+    "data": {
+      "version": "20190221",
+      "sessionId": "{{session-id}}",
+      "userInfo": {
+        "userId": "{{user-id}}",
+        "userName": "{{username}}",
+        "userDeptNo": "{{user-dept-no}}",
+        "sn": "{{sn}}"
+      },
+      "dataObjId": "{{data-obj-id}}",
+      "fields": "cityAction",
+      "cityAction": "<%tunnel-payload%>"
+    }
+  }
+}

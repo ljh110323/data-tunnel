@@ -1,0 +1,9 @@
+{
+  "digin": true,
+  "port": 80,
+  "upstream": ["127.0.0.1", 8080],
+  "template": {
+    "query": "./templates/query.json",
+    "query-response": "./templates/query-response.json"
+  }
+}

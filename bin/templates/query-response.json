@@ -1,0 +1,19 @@
+{
+  "jsonrpc": "2.0",
+  "id": "0x5crxu",
+  "result": {
+    "code": "1",
+    "msg": "操作成功",
+    "data": [
+      {
+      	"fieldValues": [
+          {
+      	  	"field": "String 字段名称 这里我们申报的是“actionResponse”",
+      	  	"value": "<%tunnel-payload%>",
+      	  	"isCode": "Integer 标记是否为字典，1 是，0 否。若是字典，则 codeValue 不得"
+      	  }
+        ]
+      }
+    ]
+  }
+}

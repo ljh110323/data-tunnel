@@ -1,0 +1,33 @@
+{
+  "name": "data-tunnel",
+  "version": "1.0.0",
+  "description": "data tunnel",
+  "main": "index.js",
+  "author": "zonebond",
+  "license": "9sdata",
+  "scripts": {
+    "start": "node ./src",
+    "build": "webpack",
+    "debug": "yarn build && (node --inspect bin/main.js --config='./bin/config.js' & node bin/mock.js)",
+    "serve": "node bin/main.js --config='./bin/config.json'",
+    "backs": "node bin/main.js --config='./src/tests/config.json'",
+    "tests": "node bin/mock.js",
+    "error": "kill $(ps | grep 'node bin')",
+    "works": "yarn build && (yarn tests & yarn serve & yarn backs)"
+  },
+  "private": true,
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "format-json-stream": "^0.1.5",
+    "fs-extra": "^8.1.0",
+    "through2": "^3.0.1",
+    "through2-map": "^3.0.0",
+    "through2-reduce": "^1.1.1"
+  },
+  "devDependencies": {
+    "commander": "^4.0.1",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
